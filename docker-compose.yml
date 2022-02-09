@@ -5,10 +5,10 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_HOST: localhost
-      POSTGRES_PORT: 5432
+      POSTGRES_PORT: 5433
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: pronea
     volumes:
       - ./data:/var/lib/postgresql/data # persist data even if container shuts down
     ports: 
-      - "5432:5432" # expose port 5432 on host
+      - "5433:5432" # expose port 5432 on host

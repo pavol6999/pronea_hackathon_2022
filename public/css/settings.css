@@ -1,0 +1,83 @@
+
+.sett_hor_line {
+    width: 90%;
+    border-top: 2px solid rgb(203, 32, 255);
+    height: 2px;
+    margin-top: -2px;
+    margin-left: 5%;
+    padding: 0;
+}
+.customer_date {
+    color:#9c7bbb
+}
+
+.sett_top_part {
+    margin: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sett_name {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.sett_regdate {
+    margin-left: 20px;
+    max-width: 50%;
+}
+
+.sett_container {
+    margin: 0;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.sett_sec_header {
+    font-style: italic;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.section_btn_admin {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    max-width: 150px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.sett_half {
+    margin-left:0;
+    margin-right: 0;
+    padding: 0;
+}
+
+.sett_input {
+    margin-left: 15px;
+    margin-bottom: 15px;
+
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 20px;
+     border: 1px solid #bb78fa;
+    width: 80%;
+}
+
+.sett_btn {
+    margin-bottom: 15px;
+}
+
+.sett_input_gr {
+    margin-left: 0;
+}
+

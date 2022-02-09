@@ -1,0 +1,30 @@
+.order_selector {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 20%;
+    margin-left: 10px
+
+;
+}
+
+ul.nav a:hover { background-color: #c18ad6 !important; color: #fff !important;}
+
+
+.clothing_type_checker {
+    margin-bottom: 20px;
+}
+.filter_row {
+    display: flex; align-items: flex-end; justify-content: space-around; width:100%;
+}
+
+.choices {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.filter-button {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 15px;
+}

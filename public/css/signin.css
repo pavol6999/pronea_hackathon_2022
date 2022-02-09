@@ -1,0 +1,110 @@
+.signin_input{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 20px;
+     border: 1px solid #2d9fd9;
+     color: #a0d18c;
+     height: 60px;
+     padding-left: 25px;
+     padding-top: 9px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     margin-left: -13px;
+}
+
+.signin_input-half{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 20px;
+     border: 1px solid #2d9fd9;
+     color: #a0d18c;
+     height: 60px;
+     width: 170px;
+     padding-left: 25px;
+     padding-top: 9px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     margin-left: -13px;
+}
+
+.form_group {
+    position: relative;
+    left: 10px;
+}
+
+.form_group>label {
+    position:absolute;
+    top:  10px;
+    right: 1fr;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.screen_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 90vh;
+}
+
+.submit_btn {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px; 
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #808080;
+}
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    .signin_input {
+        width: 400px;
+    }
+    .signin_input-half {
+        width: 195px;
+    }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    .signin_input {
+        width: 450px;
+    }
+    .signin_input-half {
+        width: 220px;
+    }
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    .signin_input {
+        width: 500px;
+    }
+    .signin_input-half {
+        width: 245px;
+    }
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    .signin_input {
+        width: 550px;
+    }
+    .signin_input-half {
+        width: 270px;
+    }
+}
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+    .signin_input {
+        width: 600px;
+    }
+    .signin_input-half {
+        width: 295px;
+    }
+ } 

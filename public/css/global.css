@@ -1,0 +1,76 @@
+
+
+
+
+
+ul.nav a:hover { background-color: #c18ad6 !important; color: #fff !important;}
+
+.form-check-input:checked {
+    background-color: #9d2bca !important;
+    border-color: #9d2bca !important;
+}
+
+a {
+    cursor: pointer !important;
+}
+
+.survey_button  {
+    transform: rotate(270deg);
+    padding:5px 3px;
+    position:fixed;
+    bottom: 520px;
+    right: -45px;
+    margin: 0;
+}
+
+.btn-primary {
+    background-color: #77ACFB !important;
+    border-color: #77ACFB !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+ 
+ 
+ 
+    background-color: #5a85c5 !important;
+     
+    color:#FFF;
+     
+    border-color: #ffffff !important;
+     
+}
+hr {
+    border: 0;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    height: 3px !important;
+    background-image: linear-gradient(to right,rgba(149, 48, 189, 0.75), rgba(196, 55, 252, 0.75), rgba(224, 128, 248, 0));
+}
+
+.form-check-input {
+    background-color: #fbebff;
+}
+
+.form-check-input:active {
+    background-color: #fbebff;
+    
+}
+
+.btn {
+    box-shadow: none !important
+}
+
+.container-if-fixed-footer
+{
+    margin-bottom:80px;
+}
+
+body {
+    font-family: Roboto;
+    margin-top: 60px;
+    background-color: #ffffff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+

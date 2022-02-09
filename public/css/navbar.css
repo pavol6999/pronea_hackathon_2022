@@ -1,0 +1,106 @@
+body {
+    font-family: Roboto;
+}
+
+.navbar {
+    background-color:  #fff !important
+    
+}
+
+.main-navbar {
+    box-shadow: 0 2px 4px 0 rgba(163, 163, 163, 0.2);
+  }
+
+
+  .navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.1em;
+    position: relative;
+  }
+  .navbar .navbar-nav .nav-link:hover {
+    color: #6297E7;
+  }
+  .navbar .navbar-nav .nav-link::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #6297E7;
+    color: transparent;
+    width: 0%;
+    content: '.';
+    height: 3px;
+    transition: all 0.5s;
+  }
+  .navbar .navbar-nav .nav-link:hover::after {
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 960px) {
+    .navbar .navbar-nav .nav-link {
+      padding: 1em 0.7em;
+    }
+    .navbar {
+      padding: 0;
+    }
+    .navbar .navbar-brand {
+      padding: 0 0.7em;
+    }
+  }
+
+
+
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+  }
+  
+  .label-warning[href],
+  .badge-warning[href] {
+    background-color: #c67605;
+  }
+  #lblCartCount {
+      font-size: 12px;
+      background: #ff0000;
+      color: #fff;
+      padding: 0 5px;
+      vertical-align: top;
+      margin-left: -10px; 
+      position: absolute;
+    
+  }
+
+
+.cart-collapsed {
+    margin-right: 10px !important
+}
+
+.navbar-nav {
+    padding-left: 5px !important;
+    padding-right: 20px !important
+}
+
+.cart {
+    padding-top: 5px !important
+}
+
+.listor {
+    margin-left: 5px !important
+}
+
+.dropmenu {
+    background-color:  #d492ee;
+}
+
+.nav-pills .nav-link.active {
+    color: #fff;
+    background-color: #c18ad6;
+}
+
+.navsearch {
+    padding-left: 5px;
+}

@@ -1,0 +1,130 @@
+
+.detail_img_part{
+    padding: 30px;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 35px;
+    background-color: #d9b6e7 ;
+
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px; 
+    border-radius: 15px;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail_big_img {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px; 
+    border-radius: 15px;
+    padding: 0;
+}
+
+.detail_name {
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.detail_cont {
+    margin: 0;
+    display:flex;
+    justify-content: space-between;
+}
+
+.detail_desc {
+    margin-top: 15px;
+    color: rgba(0,0,0, 0.6)
+}
+
+.detail_rightside {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin-left: 30px;
+}
+
+.detail_colors {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.size_label {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.altclrs {
+    display:flex;
+    justify-content: left;    
+}
+
+.detail_alt_color {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px; 
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #bb78fa ;
+}
+
+.detail_btns {
+    margin-top: 5px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+
+@media (max-width: 920px) {
+
+  /* .detail-btn {
+      font-size: 14px;
+  } */
+
+  .detail_rightside {
+      margin-left: 25px;
+  }
+  
+  /* nav ul{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #111;
+    height: 100vh;
+    width: 30%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  #click:checked ~ ul{
+    left: 0;
+  }
+  nav ul li{
+    width: 50%;
+    margin: 40px 0;
+  }
+  nav ul li a{
+    width: 50%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+  }
+  #click:checked ~ ul li a{
+    margin-left: 50%;
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+    background: none;
+    color: cyan;
+  } */
+}
+

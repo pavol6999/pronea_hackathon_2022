@@ -22,10 +22,11 @@
             <div class="row">
                 <p style="margin-top:10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget habitant vel nec viverra mauris sit quis tristique molestie. Ut et ac auctor sollicitudin amet neque enim. Massa nunc bibendum id id felis donec. Dignissim laoreet leo, eu duis amet, massa pulvinar scelerisque hac.
                 </p>
+                <p class="hidden">chcem sa zajebat</p>
             </div>
             <div class="row d-flex justify-content-between">
                 <button type="button" class="btn btn-primary" style="width:40%; margin-top:15px;" onClick="document.getElementById('middle').scrollIntoView();">Potrebujem pomoc</button>
-                <button type="button" class="btn btn-primary" style="width:40%; margin-top:15px;" onClick="document.getElementById('middle').scrollIntoView();">Chcem pomôcť</button>
+            
             </div>
         </div>
         <div class="col-4">
@@ -37,35 +38,7 @@
 
         <p class="d-flex justify-content-center" style="text-align:center; color:#E8F0FC; font-weight:400; font-size:30px; padding-top:20px; padding-bottom:20px"> O AKÝ TYP POMOCI MÁŠ ZÁUJEM ?</p>
     </div>
-    <div class="row justify-content-around" style="margin-top:50px; margin-bottom:20px">
-        <div class="col-1 justify-content-center d-flex">
-            <img src="{{ asset('/assets/image1.png') }}"></img>
-        </div>
 
-        <div class="col-1 justify-content-center d-flex">
-            <img src="{{ asset('/assets/image2.png') }}"></img>
-        </div>
-        <div class="col-1 justify-content-center d-flex">
-            <img src="{{ asset('/assets/image3.png') }}"></img>
-        </div>
-
-
-    </div>
-    <div class="row justify-content-around" style="margin-bottom:50px">
-        <div class="col-3 justify-content-center d-flex">
-            <button type="button" class="btn btn-primary" style="width:40%; margin-top:15px;">Napísať</button>
-
-        </div>
-
-        <div class="col-3 justify-content-center d-flex">
-            <button type="button" class="btn btn-primary" style="width:40%; margin-top:15px;">Študuj</button>
-
-        </div>
-        <div class="col-3 justify-content-center d-flex">
-            <button type="button" class="btn btn-primary" style="width:40%; margin-top:15px;">E-Learning</button>
-
-        </div>
-    </div>
 <div class="row"> 
 <img src="{{ asset('/assets/image4.png') }}"></img>
 </div>

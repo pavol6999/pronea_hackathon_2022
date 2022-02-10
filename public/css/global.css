@@ -15,13 +15,19 @@ a {
 }
 
 .survey_button  {
-    transform: rotate(270deg);
+
     padding:5px 3px;
     position:fixed;
-    bottom: 520px;
-    right: -45px;
+    bottom: 350px;
+    right: -10px;
     margin: 0;
 }
+
+button:active > .survey_button {
+    transform: translateY(300px);
+  }
+
+
 
 .btn-primary {
     background-color: #77ACFB !important;
